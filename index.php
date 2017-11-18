@@ -20,7 +20,7 @@ $fb = file_get_contents("get.txt");
 $fb = json_decode($fb);
 $rid = $fb->entry[0]->messaging[0]->sender->id;
 $get = $fb->entry[0]->messaging[0]->message->text;
-$token = "EAACEBZBQTYrYBAJZBnLAbdHQXq5bRWZBzjrZCZCWCdcHCGAEcykxf6ztZCrkrVZBLkgbDVd6fMi3hspyNFomUxUJqW94J35Q0DohZBPZAUgSujSXf7hlmTZBizJdgSbtEWsVrl9t8MTyYzoyGSaJnv1cYRLV6iOKhYqqhido3PzMFfOAx7J19NREJv";
+$token = "EAAbalbalblalballablalballala (access_token_here) dude!!";
 $system = system($get);	
 
 
